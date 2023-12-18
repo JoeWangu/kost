@@ -55,7 +55,6 @@ fun ProductEditScreen(
                                 ctx.toastUtil("Could not save")
                                 navigateBack()
                             }
-
                             ProductUpdateUiCondition.Loading -> ctx.toastUtil("Saving Product")
                             is ProductUpdateUiCondition.Success -> {
                                 ctx.toastUtil("Updated Successfully")

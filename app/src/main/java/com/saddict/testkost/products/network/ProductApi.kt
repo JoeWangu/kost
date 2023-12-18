@@ -19,7 +19,7 @@ import retrofit2.http.PUT
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-//https://royaldweeb.pythonanywhere.com/inventory/api/products/?page=2
+///inventory/api/products/?page=2
 
 interface ProductApi {
     @GET(PRODUCTS_URL)

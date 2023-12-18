@@ -61,7 +61,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
 //    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
 //    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
-    implementation("androidx.activity:activity-compose:1.8.1")
+    implementation("androidx.activity:activity-compose:1.8.2")
 
 //    UI
     implementation("androidx.compose.ui:ui")
@@ -82,14 +82,14 @@ dependencies {
     implementation("io.coil-kt:coil-compose:2.4.0")
 
 //    ROOM
-    val roomVersion = "2.6.0"
+    val roomVersion = "2.6.1"
     implementation("androidx.room:room-runtime:$roomVersion")
     ksp("androidx.room:room-compiler:$roomVersion")
     implementation("androidx.room:room-ktx:$roomVersion")
 //    implementation("androidx.room:room-paging:$roomVersion")
 
 //    NAVIGATION
-    val navVersion = "2.7.5"
+    val navVersion = "2.7.6"
     implementation("androidx.navigation:navigation-compose:$navVersion")
 
 //    PREFERENCES DATASTORE
